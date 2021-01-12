@@ -196,7 +196,7 @@ const B =(ele2)=>{
       <Table striped bordered hover>
 
         <tbody>
-          {final.map(elt=><tr><td>{elt.nomf+""+elt.prenomf}</td><td>{elt.statef}</td></tr>)}
+          {final.map(elt=>{return(<tr><td>{elt.nomf+""+elt.prenomf}</td><td>{elt.statef}</td></tr>)})}
          
 
         </tbody>
